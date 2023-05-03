@@ -1,0 +1,114 @@
+
+/*  ASSIGNMENT-19 (HTML + CSS) DATE:05/02/2023  */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* ---------------------------- */
+/* ------- HEADER SECTION----- */
+/* -------------------------- */
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    border: none;
+
+    
+    
+    
+
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 400px;
+    font-family: "Poppins";
+
+    
+    
+}
+.list:hover{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.list li a{
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    width: 95px;
+    margin-left: 50px;
+    cursor: pointer;
+    display: flex;
+    
+}
+.line{
+    width:1px;
+    height: 45px;
+    margin:10px;
+    background-color: #ffffff;
+}
+.small-btn{
+    margin-right: 100px;
+    border: none;
+    padding: 4px 17px;
+    font-size:  12px;
+    background-color: #ba0cc5;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius:6%;
+    font-style: normal;
+    font-family: "Poppins";
+    line-height: 20px;
+    cursor: pointer;
+
+}
+
+
+/* -------------------------- */
+/* ------- HERO SECTION----- */
+/* ------------------------ */
+
+
+.banner-container{
+    color: #ffffff;
+    text-align: center;
+    background-image: url(/assets/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 91.5vh;
+}
+.banner-heading{
+    margin-top: 130px;
+    font-size:70px;
+}
+.descripition{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins";
+    line-height:px ;
+}
+.big-btn{
+    background-color:#ba0cc5;
+    color: #ffffff;
+    border: none;
+    padding: 10px; 
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Poppins";
+    border-radius: 5%;
+    margin-top: 22px;
+    cursor: pointer;
+}
