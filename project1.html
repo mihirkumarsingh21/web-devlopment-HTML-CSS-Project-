@@ -1,0 +1,170 @@
+<!-- Assignment-17 (HTML + CSS) Date: 03/2/2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- INTERNAL CSS -->
+    <style>
+        *{
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* background-image:url(/assets/pexels-maxyne-barcel-10402282\ 1.png) ; */
+}
+body{
+    background-image: url("/assets/pexels-maxyne-barcel-10402282\ 1.png");
+}
+
+
+/* -------------------------*/
+/* ------- HEADER PART ------*/
+/*--------------------------*/
+
+
+.logo{
+    
+    display: flex;
+    padding: 25px;
+    width: 150px;
+}
+.logo{
+    position: relative;
+    right: 125px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li:hover{ 
+    text-decoration: underline;
+    font-weight: 700;
+}
+nav ul li a{
+    color: #ffc233;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 15x;
+}
+.order-btn{
+    width: 100px;
+    padding: 10px;
+    background-color:#ff505f;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    
+    
+}
+.order-btn{
+    position: relative;
+    left: 100px;
+}
+
+
+/* ------------------------------ */
+/* --------- HERO SECTION ------- */
+/* ------------------------------ */
+
+
+.hero-section{
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+
+    text-align: center;
+    /* margin-top: 100px; */
+}
+.hero-section h1{
+    /* display: flex; */
+    /* align-items: center; */
+    color: #ffc233;
+    /* text-align: center; */
+    font-weight: 600 ;
+    font-size: 100px;
+    margin-bottom: 20px;
+    /* font-family: 'Red Rose', cursive; */
+    font-family: 'Dela Gothic One', cursive;
+}
+.menu-btn{
+    padding: 15px;
+    width:px;
+    background-color: #ff505f;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.bottom{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+    </style>
+
+
+    <!-- RED ROSE FONT -->
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+
+
+<!-- DELA FONT -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <title> Project-1 (HTML + CSS)</title>
+</head>
+<body>
+    <!-- Project Started -->
+    <!-- Header Part -->
+    <header>
+        <!-- Navigation Part -->
+        <nav>
+            <!-- Page Logo -->
+            <img src="./assets/white logo.png" alt="page logo" class="logo">
+            <!-- Menu Items -->
+            <ul>
+                <li class="first-item"><a href="#">Our Menu</a></li>
+                <li class="second-item"><a href="#">Maps</a></li>
+                <li class="third-item"><a href="#">About</a></li>
+                <li class="fourth-item"><a href="#">Contact</a></li>
+            </ul>
+            <!-- Order Button -->
+            <button class="order-btn">Order</button>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <!-- Hero Heading -->
+        <h1>A Restaurant That <br> Only Serves <br> Delicious Food</h1>
+        <Button class="menu-btn">Read Our Menu</Button>
+    </section>
+
+
+    <!-- BOTTOM SECTION -->
+
+
+    <div class="bottom"><img src="./assets/scrool.png" alt="scrool image" height="100px"></div>
+</body>
+</html>
+
